@@ -8,7 +8,7 @@ function setup(){
   let compnum= floor(random(0,101));//pick a number between 0 and 100. 
   
   
-  usernum = 1*window.prompt("pick  number between 1 and 100");  // this 1*window.prompt is a unique thing... 
+  usernum = window.prompt("pick  number between 1 and 100");  // this 1*window.prompt is a unique thing... 
 
   while(compnum!=usernum){ // while the comps number is not equal to your guess
     if(){ // fill out the () to see if usernum is less than compnum
