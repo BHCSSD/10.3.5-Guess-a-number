@@ -1,6 +1,6 @@
 # 10.3.5-Guess-a-number
 
-```
+```javaScript
 let compnum  = 20
 let usernum = -1; // why is the user number set to -1 right away? 
 
